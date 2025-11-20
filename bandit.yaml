@@ -1,4 +1,4 @@
-# Avoid Bandit to reaise issue for assert in eetest files
+# Avoid Bandit to reaise issue for assert ifefn eetest files
 assert_used:
   skips: ['*_test.py', '*test_*.py', "**/conftest.py", "tests/**/*.py"]
 exclude_dirs: ['**/tests_fuzz/*', '**/tests/security/*']
